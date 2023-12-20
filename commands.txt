@@ -1,0 +1,22 @@
+# create tailwind config file
+npx tailwindcss init
+
+# create package.json file 
+npm init -y
+
+# modify package.json file like this
+"scripts": {
+    "tailwind": "npx -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+
+# download prettier-plugin-tailwindcss dependencie
+npm i -D prettier-plugin-tailwindcss
+
+# create .gitignore file 
+# add file name that you wanna ignore in this file
+
+    eg -> node_modules
+
+
+
+
